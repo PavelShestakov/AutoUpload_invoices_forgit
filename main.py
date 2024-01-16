@@ -8,7 +8,7 @@ import upload_inbox
 
 
 if __name__ == "__main__":
-    #Создаем папки для обрадотки накладных
+    #Создаем папки для обработки накладных
     if not os.path.isdir(config.inbox_dict_path):
         os.mkdir(config.inbox_dict_path)
     if not os.path.isdir(config.spam_dict_path):
